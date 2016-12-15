@@ -105,3 +105,9 @@ class AsyncHierarchyTable{
 }
 
 export default AsyncHierarchyTable;
+
+
+window.Reportal = window.Reportal || {};
+ReportalBase.mixin(window.Reportal,{
+  AsyncHierarchyTable
+});
